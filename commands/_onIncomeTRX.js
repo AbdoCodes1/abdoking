@@ -67,7 +67,7 @@ depo.add(amount)
 User.setProperty("minertrx",amount ,"text")
 Bot.run({
 command : "/accTRXF",
-run_after : 1,666666666
+run_after : 1,
 options: { amount: amount }
 })
 var lilo = Bot.getProperty("total")
